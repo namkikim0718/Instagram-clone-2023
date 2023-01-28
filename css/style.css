@@ -1,0 +1,16 @@
+
+
+@import "reset.css";
+@import "variable.css";
+
+/* components */
+@import "components/status-bar.css";
+
+/* screen */
+@import "screen/home.css";
+
+
+body {
+    background-color: black;
+    color: white;
+}
