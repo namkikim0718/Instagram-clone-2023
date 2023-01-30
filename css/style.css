@@ -5,6 +5,7 @@
 
 /* components */
 @import "components/status-bar.css";
+@import "components/bottom-menu-bar.css";
 
 /* screen */
 @import "screen/home.css";
