@@ -9,6 +9,8 @@
 
 /* screen */
 @import "screen/home.css";
+@import "screen/search.css";
+@import "screen/reels.css";
 
 
 body {
