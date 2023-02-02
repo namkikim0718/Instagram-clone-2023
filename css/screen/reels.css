@@ -1,6 +1,14 @@
 /*-- modifier --*/
-.body {
+body {
     position: relative;
+}
+
+.background-image {
+    position: absolute;
+    top: 15%;
+    z-index: -99;
+    width: 100%;
+    height: 100%;
 }
 
 .reels-status-bar {
@@ -28,7 +36,7 @@
 }
 
 .reels-videos__context {
-    margin-top: 200px;
+    margin-top: 180px;
     margin-left: 15px;
     width: 90%;
     align-items: center;
@@ -43,10 +51,12 @@
 .user-info {
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 .user-info span {
     margin-left: 10px;
+    font-weight: bold;
 }
 
 .user-info span:last-child {
@@ -58,7 +68,18 @@
 
 
 .video-info {
-    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-info span {
+    margin: 10px 0px;
+    font-size: 14px;
+    font-weight: light;
+}
+
+.video-info i {
+    margin-right: 10px;
 }
 
 .reels-videos__buttons {
