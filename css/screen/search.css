@@ -1,26 +1,5 @@
-.search-window {
+.search-window__modifier {
     margin-top: 60px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: #262626;
-    font-size: 20px;
-    padding: 5px 10px;
-    border-radius: 8px;
-}
-
-.search-window i {
-    opacity: 0.5;
-    font-size: 15px;
-}
-
-.search-window input {
-    width: 93%;
-    background-color: #262626;
-    border: none;
-    font-size: 20px;
-    outline: none;
-    caret-color: white;
-    font-size: 20px;
 }
 
 .search-items {
