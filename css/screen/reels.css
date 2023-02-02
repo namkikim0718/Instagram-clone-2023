@@ -11,6 +11,10 @@ body {
     height: 100%;
 }
 
+.background-image img {
+    width: 100%;
+}
+
 .reels-status-bar {
     background-color: none;
 }
