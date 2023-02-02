@@ -1,0 +1,27 @@
+.shop-headline {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-headline__title {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.shop-headline__buttons span {
+    font-size: 20px;
+    margin-right: 25px;
+}
+.shop-items {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.shop-items__item img {
+    width: 248px;
+    height: 248px;
+}
