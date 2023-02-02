@@ -6,11 +6,13 @@
 /* components */
 @import "components/status-bar.css";
 @import "components/bottom-menu-bar.css";
+@import "components/search-window.css";
 
 /* screen */
 @import "screen/home.css";
 @import "screen/search.css";
 @import "screen/reels.css";
+@import "screen/shop.css";
 
 
 body {
