@@ -1,0 +1,147 @@
+.profile-headline {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-headline__title {
+    display: flex;
+    align-items: center;
+}
+
+.profile-headline__title span {
+    margin: 0px 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.profile-headline__title img {
+    margin-left: -27px;
+    margin-right: -10px;
+    width: 50px;
+    height: 33px;
+}
+
+.profile-headline__buttons span {
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 15px;
+}
+
+.profile-info__introduce {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.profile-info__introduce span {
+    display: block;
+    margin-top: 5px;
+}
+
+.profile-info__image {
+    position: relative;
+}
+
+.profile-info__image img {
+    width: 80px;
+    height: 80px;
+    margin: 5px 10px;
+    border-radius: 50%;
+}
+
+.profile-info__details span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.profile-info__details span:last-child {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.profile-info__details-count {
+    font-size: 18px;
+}
+
+.professional-dashboard {
+    background-color: #262626;
+    margin: 10px 15px;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.professional-dashboard span {
+    display: block;
+}
+
+.professional-dashboard span:last-child {
+    font-size: 14px;
+    color: #9B9B9B;
+    margin-top: 5px;
+}
+
+.profile-control {
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-control__button {
+    background-color: #262626;
+    width: 100%;
+    margin: 0px 2.5px;
+    padding: 12px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.feed-categories {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feed-categories span {
+    width: 33%;
+    padding: 10px 0px;
+}
+
+.feed-categories span i {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.feed-categories__posts {
+    border-bottom: 1px solid rgba(196, 196, 196, 1);
+}
+
+.feed-categories__reels i,
+.feed-categories__tags i {
+    opacity: 0.6;
+}
+
+
+.feed-items {
+    margin-top: 10px;
+    margin-bottom: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.feed-items__item img {
+    width: 99%;
+    height: 166px;
+}
